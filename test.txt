@@ -3,4 +3,5 @@
 - Changes "success" prints to debugmode only
 - Improve ESX Job caching logic
 - Fix stash creation logic for older inventories
-^7https://github.com/jimathy/jim_bridge
+
+https://github.com/jimathy/jim_bridge
