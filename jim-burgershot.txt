@@ -1,1 +1,8 @@
 3.0.04
+
+- Add "StashCraft" information to install.md's
+- Improve error debug events for missing items
+- Fix Stash labels showing as target option labels
+- Fix Stash Props for counters when item in stash
+
+https://portal.cfx.re/assets/granted-assets
