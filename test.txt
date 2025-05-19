@@ -4,4 +4,4 @@
 - Improve ESX Job caching logic
 - Fix stash creation logic for older inventories
 
-https://github.com/jimathy/jim_bridge
+^1https://github.com/jimathy/jim_bridge
