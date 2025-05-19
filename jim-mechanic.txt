@@ -1,1 +1,15 @@
 3.6.06
+
+- Add /admincustoms for admin only modification menu
+- Rework Ejection logic math
+- Adjust vehicle milage logic
+- Unowned cars now have synced random milage
+- Fix prevent roll when "oldPreventRoll" was disabled
+- Fix stashes not changing size
+- Fix skillcheck breaking mechanic_tools menu
+- Fix extre components eg. harness not setting on vehicles correctly
+- Fix "old liveries" not setting back to stock
+- Fix horn item causing errors and not applying
+- Fix RGB paintcan finishes forcing others to change
+
+https://portal.cfx.re/assets/granted-assets
