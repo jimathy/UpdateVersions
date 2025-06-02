@@ -1,1 +1,5 @@
-2.0.0
+2.0.01
+
+- Fix missing shop location
+
+https://portal.cfx.re/assets/granted-assets
