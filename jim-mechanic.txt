@@ -1,15 +1,23 @@
-3.6.06
+3.6.07
 
-- Add /admincustoms for admin only modification menu
-- Rework Ejection logic math
-- Adjust vehicle milage logic
-- Unowned cars now have synced random milage
-- Fix prevent roll when "oldPreventRoll" was disabled
-- Fix stashes not changing size
-- Fix skillcheck breaking mechanic_tools menu
-- Fix extre components eg. harness not setting on vehicles correctly
-- Fix "old liveries" not setting back to stock
-- Fix horn item causing errors and not applying
-- Fix RGB paintcan finishes forcing others to change
+- Adjusted logic for milage calculation, it was going NUTS on cayo perico
+- Remove Gravity logic for prevent roll, making `oldPreventRoll` the only option
+- Convert syncing systems for Stancer, Nos, Nos colour, and customDamages to global statebags
+- Possible fix for `seat` somehow being `nil` errors
+- Possible fix for the line 55 `nil` error when getting milage
+- Complete rework of the Audio code to stop global seatbelt sounds
+- Rework AdminCustoms.lua to be completely separate from emsBench
+- Fix ems repair bench and adminCustoms not working with boats correctly
+- Fix print error breaking push vehicle with qb-target
+- Fix typo not allowing stashes to change max weight
+- Add client side GetMilage export (experimental)
+- Update ox_jobs.sql for ox_core frameworks
+- Cleanup some left over debug prints
+- Fix mechboard item not finding metadata on ESX
+- Fix mechboard item saying "Wrap" for the plate
+- Possible fix for ESX and OXCore sql plate change systems
+- Fix harness unbuckling progress bar text
+- Add Nitrous and Manual transmission options to admin customs
+- Adjustments to stancer.lua to hopefully fix a couple issues
 
 https://portal.cfx.re/assets/granted-assets
