@@ -1,1 +1,8 @@
-2.0.0
+2.0.01
+
+- Fix chopping board location being too low
+- Re-add pizza base creation location (sorry)
+- Fix pizzabox opening when not using jim-consuambles
+- Fix consumable typo making 1 marianarabox make 6 more
+
+https://portal.cfx.re/assets/granted-assets
