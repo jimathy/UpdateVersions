@@ -1,1 +1,12 @@
-1.0.2
+1.1.0
+
+- Multiframework Update
+- Now works with `QB-Core`, `QBOX`, `OXCore`, `ESX` (if using ox_lib + ox_inventory)
+- Full rewrite
+- Added cams for progressbars
+- Added Multi Location support
+- Added the ability to craft from a stash
+- Added drawText prompt for when sitting in a chair on how to stand up
+- Support for custom blip preview images in the pause menu map.
+
+https://portal.cfx.re/assets/granted-assets
