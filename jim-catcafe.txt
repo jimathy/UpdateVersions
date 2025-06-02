@@ -1,9 +1,5 @@
-2.1.04
+2.1.05
 
-- Add "StashCraft" information to install.md's
-- Improve error debug events for missing items
-- Fix Stash labels showing as target option labels
-- Fix Stash Props for counters when item in stash
-- Fix progresbar locales showing "invalid"
+- Fix qb-items being unusable, replace your items in the shared to fix this
 
 https://portal.cfx.re/assets/granted-assets
