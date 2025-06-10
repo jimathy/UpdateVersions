@@ -1,1 +1,13 @@
-2.0.3
+2.1.0
+
+- Ported to `jim_bridge` to be more optimizied and automated
+- Now supports `qb-core`, `ox_core`, `qbox` and `esx` (with ox)
+- Supports more inventories thanks to `jim_bridge`
+- Reorganised script files to make more sense
+- `jim_bridge` allows users to create custom peds based on multiplayer peds
+    - Check stores.lua for the ways to do this
+    - (its based on the id numbers of clothing items)
+- SQL now installs itself so no need to run any `.sql` files anymore
+- Can't remember what else I changed <3 just fixes and optimizations
+
+https://portal.cfx.re/assets/granted-assets
