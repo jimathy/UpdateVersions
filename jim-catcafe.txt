@@ -1,5 +1,8 @@
-2.1.05
+2.1.06
 
-- Fix qb-items being unusable, replace your items in the shared to fix this
+- Add support for jim-blipcontroller
+- Add support for jim-imagedisplay
+- Change built in `jim-payments` trigger to `jim_bridge` `billPlayer()` function
+- Change built in "qb-bossmenu" trigger event to `jim_bridge` `openBossMenu()`
 
 https://portal.cfx.re/assets/granted-assets
