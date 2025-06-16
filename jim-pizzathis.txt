@@ -1,8 +1,8 @@
-2.0.01
+2.0.02
 
-- Fix chopping board location being too low
-- Re-add pizza base creation location (sorry)
-- Fix pizzabox opening when not using jim-consuambles
-- Fix consumable typo making 1 marianarabox make 6 more
+- Add support for jim-blipcontroller
+- Add support for jim-imagedisplay
+- Change built in `jim-payments` trigger to `jim_bridge` `billPlayer()` function
+- Change built in "qb-bossmenu" trigger event to `jim_bridge` `openBossMenu()`
 
 https://portal.cfx.re/assets/granted-assets
