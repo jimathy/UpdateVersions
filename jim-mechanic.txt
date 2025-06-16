@@ -1,23 +1,26 @@
-3.6.07
+3.6.08
 
-- Adjusted logic for milage calculation, it was going NUTS on cayo perico
-- Remove Gravity logic for prevent roll, making `oldPreventRoll` the only option
-- Convert syncing systems for Stancer, Nos, Nos colour, and customDamages to global statebags
-- Possible fix for `seat` somehow being `nil` errors
-- Possible fix for the line 55 `nil` error when getting milage
-- Complete rework of the Audio code to stop global seatbelt sounds
-- Rework AdminCustoms.lua to be completely separate from emsBench
-- Fix ems repair bench and adminCustoms not working with boats correctly
-- Fix print error breaking push vehicle with qb-target
-- Fix typo not allowing stashes to change max weight
-- Add client side GetMilage export (experimental)
-- Update ox_jobs.sql for ox_core frameworks
-- Cleanup some left over debug prints
-- Fix mechboard item not finding metadata on ESX
-- Fix mechboard item saying "Wrap" for the plate
-- Possible fix for ESX and OXCore sql plate change systems
-- Fix harness unbuckling progress bar text
-- Add Nitrous and Manual transmission options to admin customs
-- Adjustments to stancer.lua to hopefully fix a couple issues
+- ADD /pushvehicle command
+- Revert changes in stancer.lua, users reporting it not setting when player pulled out vehicle from garage
+- NEW when repairing outside of a location, and StashRepair is enabled, it will use inventory items instead
+- NEW speedometer type 5 - "Minimal"
+- FIX any mechanic being able to use any stash to repair with if they enter their job location
+- FIX another "Plate" label saying "Wrap" when previewing
+- FIX /door, /trunk and /hood commands
+- FIX gang ownership of job locations
+- Change `pushVehicle` module to load when player is loaded instead of resource start, hopefully this fixes some issues
+- FIX RepairKits and AdvancedRepairKit item functions, they are now smarter
+- Fix adjustments to spare tire item use
+- Rework preview exploit protection to delete the vehicle instead of attempt to revert it
+- Add breakout for is a player attempts to get mileage of a vehicle with no plate
+- Comment out `setVehicleProperties` function when syncing vehicle between players
+- Fix carlift loading when loading in
+- Fix vehicle attachment detection location on built in carlifts
+- Small workaround for if using a custom ped model when repair animations are being used
+- Fix odometer causing no such entity warnings when leaving vehicle
+- Add chameleon paints and anitlag to adminCustoms
+- Add "Set Milage" to admin customs and new server export for it
+- Rework extra engine damage code, adding new section to modifiers_confg.lua
+- Make sql database more "verbose"
 
 https://portal.cfx.re/assets/granted-assets
