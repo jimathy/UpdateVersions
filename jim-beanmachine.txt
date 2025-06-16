@@ -1,8 +1,8 @@
-3.0.03
+3.0.04
 
-- Add "StashCraft" information to install.md's
-- Improve error debug events for missing items
-- Fix Stash labels showing as target option labels
-- Fix Stash Props for counters when item in stash
+- Add support for jim-blipcontroller
+- Add support for jim-imagedisplay
+- Change built in `jim-payments` trigger to `jim_bridge` `billPlayer()` function
+- Change built in "qb-bossmenu" trigger event to `jim_bridge` `openBossMenu()`
 
 https://portal.cfx.re/assets/granted-assets
