@@ -1,4 +1,4 @@
-3.6.0*
+3.6.09
 
 - Rework mechboard item for ox_inv
 - Fix for Extras and Windowtints not showing in mechboard menu
