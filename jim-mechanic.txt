@@ -1,26 +1,17 @@
-3.6.08
+3.6.0*
 
-- ADD /pushvehicle command
-- Revert changes in stancer.lua, users reporting it not setting when player pulled out vehicle from garage
-- NEW when repairing outside of a location, and StashRepair is enabled, it will use inventory items instead
-- NEW speedometer type 5 - "Minimal"
-- FIX any mechanic being able to use any stash to repair with if they enter their job location
-- FIX another "Plate" label saying "Wrap" when previewing
-- FIX /door, /trunk and /hood commands
-- FIX gang ownership of job locations
-- Change `pushVehicle` module to load when player is loaded instead of resource start, hopefully this fixes some issues
-- FIX RepairKits and AdvancedRepairKit item functions, they are now smarter
-- Fix adjustments to spare tire item use
-- Rework preview exploit protection to delete the vehicle instead of attempt to revert it
-- Add breakout for is a player attempts to get mileage of a vehicle with no plate
-- Comment out `setVehicleProperties` function when syncing vehicle between players
-- Fix carlift loading when loading in
-- Fix vehicle attachment detection location on built in carlifts
-- Small workaround for if using a custom ped model when repair animations are being used
-- Fix odometer causing no such entity warnings when leaving vehicle
-- Add chameleon paints and anitlag to adminCustoms
-- Add "Set Milage" to admin customs and new server export for it
-- Rework extra engine damage code, adding new section to modifiers_confg.lua
-- Make sql database more "verbose"
+- Rework mechboard item for ox_inv
+- Fix for Extras and Windowtints not showing in mechboard menu
+- Add new function to "retry" find vehicle id when entering a vehicle
+- Add extra checks for statebags to stop it erroring randomly
+- Add extra checks for "GetStatus" event to stop it erroring
+- Fix errors in statebags if VehicleStatus table for vehicle didn't exist
+- Add extra print to remind users to add job role to Config.Main.JobRoles
+- Fix nos boos and nos change events trying to trigger when user wasn't in a vehicle
+- Add support for changing "Mech Stash" label using "stashLabel" variable in target
+- Fix dumb js stlye error when entering vehicle
+- Attempt to add fix for nos stopping all controls when finishing boost
+- Change targets to use jim_bridge events for bossmenu and charging player
+- Add config options to enable or disable the target or command for pushVehicle
 
 https://portal.cfx.re/assets/granted-assets
