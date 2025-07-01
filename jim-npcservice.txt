@@ -1,13 +1,5 @@
-1.1
+1.1.01
 
-- Now uses jim_bridge for greater optimization and framework support
-- Rewrote alot of the script
-- Added instructional buttons for when in a taxi
-- Fixed taxi/limo draw text when taxi's weren't free
-- Changed all systems to get player money values locally using jim_bridge
-- Added and fixed newer gamebuild blips
-- Change the autopilot into a toggle command, press it again to turn of autopilot
-- Added configurable timers for heli and plane take offs
-- Can't remember what else <3
+- Add config option to set fuel script name to help setting fuel level
 
 https://portal.cfx.re/assets/granted-assets
