@@ -1,17 +1,18 @@
-3.6.09
+3.6.10
 
-- Rework mechboard item for ox_inv
-- Fix for Extras and Windowtints not showing in mechboard menu
-- Add new function to "retry" find vehicle id when entering a vehicle
-- Add extra checks for statebags to stop it erroring randomly
-- Add extra checks for "GetStatus" event to stop it erroring
-- Fix errors in statebags if VehicleStatus table for vehicle didn't exist
-- Add extra print to remind users to add job role to Config.Main.JobRoles
-- Fix nos boos and nos change events trying to trigger when user wasn't in a vehicle
-- Add support for changing "Mech Stash" label using "stashLabel" variable in target
-- Fix dumb js stlye error when entering vehicle
-- Attempt to add fix for nos stopping all controls when finishing boost
-- Change targets to use jim_bridge events for bossmenu and charging player
-- Add config options to enable or disable the target or command for pushVehicle
+- Add support for lation_ui
+- Revamp AdminCustoms menu and made smarter
+- Fix stancer settings not being applied on vehicle spawn
+- Add more checks to odometer logic to stop "axle" nil errors
+- Rework the rework of /door, /hood, /trunk commands
+- Add breakout for preview camera when closing the menu
+- Improve mechanic_tools menu to show if items are missing or not
+- Improve mechanic_tools menu to show where the ingredients are being checked from
+- Add new locales
+- Force the driver to be network entity owner
+- Fix typo causing body repairs with repairkit to error out
+- Sliglty adjust NOS logic to hopefully fix some issues people were having
+- Fix odometer door check using the wrong variable
+- Adjust server side logic for location creation
 
 https://portal.cfx.re/assets/granted-assets
