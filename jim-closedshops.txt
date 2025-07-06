@@ -1,6 +1,6 @@
-2.1.01
+2.1.02
 
-- Fix trying to get data from inventory, not closedshops db
-- Fix ox_inv event being triggered if using ox_lib menu
+- Update SQL debug prints
+- Add support for lation_ui
 
 https://portal.cfx.re/assets/granted-assets
