@@ -1,1 +1,9 @@
-1.2.4
+2.0
+
+- Rewrite to support jim_bridge
+- This includes many fixes and optimizations
+- Moved Locations and polyzone info to another `locations.lua` file
+- Changed how targets check for items and added itemchecks to each even't allowing the script to give warnings
+- Locale fixes
+
+https://portal.cfx.re/assets/granted-assets
