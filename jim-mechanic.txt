@@ -1,18 +1,8 @@
-3.6.10
+3.6.11
 
-- Add support for lation_ui
-- Revamp AdminCustoms menu and made smarter
-- Fix stancer settings not being applied on vehicle spawn
-- Add more checks to odometer logic to stop "axle" nil errors
-- Rework the rework of /door, /hood, /trunk commands
-- Add breakout for preview camera when closing the menu
-- Improve mechanic_tools menu to show if items are missing or not
-- Improve mechanic_tools menu to show where the ingredients are being checked from
-- Add new locales
-- Force the driver to be network entity owner
-- Fix typo causing body repairs with repairkit to error out
-- Sliglty adjust NOS logic to hopefully fix some issues people were having
-- Fix odometer door check using the wrong variable
-- Adjust server side logic for location creation
+- Fix `stanceToChange` error if stancer is disabled
+- Add extra checks to odometer code to prevent errors
+- Add workarounds for garage "preview" vehicles causing errors
+- Add Japanese locale file
 
 https://portal.cfx.re/assets/granted-assets
