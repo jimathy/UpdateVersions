@@ -1,8 +1,9 @@
-1.1.01
+1.1.03
 
-- Add support for jim-blipcontroller
-- Add support for jim-imagedisplay
-- Change built in `jim-payments` trigger to `jim_bridge` `billPlayer()` function
-- Change built in "qb-bossmenu" trigger event to `jim_bridge` `openBossMenu()`
+- Full support for Lation_UI
+- State in config that okok billing is an option
+- Add missing ox items from the install info
+- Fix anim flag logic for built in consume event
+- Update discord links and add gitbook link info
 
 https://portal.cfx.re/assets/granted-assets
