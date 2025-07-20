@@ -1,8 +1,8 @@
-3.6.11
+3.6.12
 
-- Fix `stanceToChange` error if stancer is disabled
-- Add extra checks to odometer code to prevent errors
-- Add workarounds for garage "preview" vehicles causing errors
-- Add Japanese locale file
+- Fix typo making disableCrashEjection not do anything
+- Rearrange some events to stop qs-garages repairing engine
+- Fix locale name typo in pushvehicle.lua
+- Update discord links and add gitbook link info
 
 https://portal.cfx.re/assets/granted-assets
