@@ -1,8 +1,13 @@
-3.6.12
+3.6.13
 
-- Fix typo making disableCrashEjection not do anything
-- Rearrange some events to stop qs-garages repairing engine
-- Fix locale name typo in pushvehicle.lua
-- Update discord links and add gitbook link info
+- Add support for JG-Hud
+- Add support for HaneStudios Auto Shop
+- Add support for KingMaps Big LS Customs
+- Fix for the Passenger NOS issue
+- Add support for jim-blipcontroller (I forgor)
+- Hopefully fix repairs not syncing for some users
+- Update getVehicleProperties and setVehicleProperties
+  - The properties files in `_install` will need to be reapplied
+  - Fixes trying to load mechanic info for non networked vehicles
 
 https://portal.cfx.re/assets/granted-assets
