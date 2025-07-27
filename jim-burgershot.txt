@@ -1,8 +1,6 @@
-3.0.06
+3.0.07
 
-- Full support for Lation_UI
-- State in config that okok billing is an option
-- Fix anim flag logic for built in consume event
-- Update discord links and add gitbook link info
+- Add new location - KingMaps Burgershot (burgershot_kingmaps.lua)
+- Remove thread that was stopping built in prop emotes from working
 
 https://portal.cfx.re/assets/granted-assets
