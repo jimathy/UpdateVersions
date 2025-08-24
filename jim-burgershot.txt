@@ -1,6 +1,7 @@
-3.0.07
+3.0.08
 
-- Add new location - KingMaps Burgershot (burgershot_kingmaps.lua)
-- Remove thread that was stopping built in prop emotes from working
+- Fix cabinet location for kingmaps mlo
+- Make use of jim_bridge new shop exploit protection
+- Use jim_bridge getItemLabel() function more
 
 https://portal.cfx.re/assets/granted-assets
