@@ -1,9 +1,8 @@
-1.1.02
+1.1.03
 
-- Full support for Lation_UI
-- State in config that okok billing is an option
-- Add missing ox items from the install info
-- Fix anim flag logic for built in consume event
-- Update discord links and add gitbook link info
+- Tidy items in _install a bit
+- Remove thread that was stopping prop spawn
+- Make use of jim_bridge new shop exploit protection
+- Use jim_bridge getItemLabel() function more
 
 https://portal.cfx.re/assets/granted-assets
