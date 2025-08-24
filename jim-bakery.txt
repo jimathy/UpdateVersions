@@ -1,6 +1,6 @@
-2.0.05
+2.0.06
 
-- Fix typo in bakery_hanestrey.lua breaking chopping board
-- Remove thread that was stopping built in prop emotes from working
+- Make use of jim_bridge new shop exploit protection
+- Use jim_bridge getItemLabel() function more
 
 https://portal.cfx.re/assets/granted-assets
