@@ -1,6 +1,5 @@
-2.0.01
+2.0.02
 
-- Fix loading of Bzzz chainsaw prop
-- Make use of jim_bridge new shop exploit protection
+- Fix the boolean picking wrong saw prop (sorry)
 
 https://portal.cfx.re/assets/granted-assets
