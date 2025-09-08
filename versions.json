@@ -1,0 +1,79 @@
+{
+    "resources": {
+        "jim-afkcam": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-bakery": { "version": "1.1.0",
+            "notes": [
+                "- Make use of jim_bridge new shop exploit protection",
+                "- Use jim_bridge getItemLabel() function more"
+            ]
+        },
+        "jim-bars": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-beanmachine": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-burgershot": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-catcafe": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-closedshops": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-crafting": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-fire": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-freecam": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-henhouse": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-imagedisplay": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-lumberjack": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-mechanic": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-npcservice": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-parking": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-pizzathis": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-plates": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-popsdiner": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-restaurants": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-shootingrange": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-tequilala": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-upnatomhorny": { "version": "1.1.0",
+            "notes": []
+        },
+        "jim-vanillaunicorn": { "version": "1.1.0",
+            "notes": []
+        }
+    }
+}
