@@ -3,14 +3,19 @@
         "jim-afkcam": { "version": "1.1.0",
             "notes": []
         },
-        "jim-bakery": { "version": "1.1.0",
+        "jim-bakery": { "version": "2.0.07",
             "notes": [
                 "- Make use of jim_bridge new shop exploit protection",
                 "- Use jim_bridge getItemLabel() function more"
             ]
         },
-        "jim-bars": { "version": "1.1.0",
-            "notes": []
+        "jim-bars": { "version": "2.0.03",
+            "notes": [
+                "- Tidy items in _install a bit",
+                "- Remove thread that was stopping prop spawn",
+                "- Make use of jim_bridgs new shop exploit protection",
+                "- Use jim_bridge getItemLabel() function more"
+            ]
         },
         "jim-beanmachine": { "version": "1.1.0",
             "notes": []
