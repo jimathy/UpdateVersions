@@ -1,6 +1,7 @@
-2.0.06
+2.0.07
 
-- Make use of jim_bridge new shop exploit protection
-- Use jim_bridge getItemLabel() function more
+- Overhaul script secuity
+- Use new jim_bridge openClothing() function
+- Update to jim_bridge 2.1.0+
 
 https://portal.cfx.re/assets/granted-assets
