@@ -1,13 +1,20 @@
-3.6.13
+3.6.14
 
-- Add support for JG-Hud
-- Add support for HaneStudios Auto Shop
-- Add support for KingMaps Big LS Customs
-- Fix for the Passenger NOS issue
-- Add support for jim-blipcontroller (I forgor)
-- Hopefully fix repairs not syncing for some users
-- Update getVehicleProperties and setVehicleProperties
-  - The properties files in `_install` will need to be reapplied
-  - Fixes trying to load mechanic info for non networked vehicles
+- Now uses updated shop creation from jim_bridge
+- Now uses updated stash creation from jim_bridge
+- Add missing config option for triggering external player huds changes
+- Now passes the plate to `updateHudNitrous` for huds that need it
+- Add extra checks when deleting models to shut fivem warnings up
+- Re-work audio code to have hard limits on nearby sounds
+- Add support for vmt_lightbar (ONX police vehicles)
+- Add maxPerformance option for adminCustoms
+- Add toggle for disabling seatbelt
+- Add locale table for vehicle seat picker
+- Make repair updates instantaneous for local player, instead of waiting for statebag
+- Fix harnessEjection config variable not being called correctly
+- Fix possible issue with auto clocking in when entering a location
+- Fix possible issue with /door and /seat not working on ox_lib
+- Refactor repairStashName selection to be more "certain"
+- Refactor `VehicleStatus` handling
 
 https://portal.cfx.re/assets/granted-assets
