@@ -1,8 +1,7 @@
-2.0.03
+2.0.04
 
-- Tidy items in _install a bit
-- Remove thread that was stopping prop spawn
-- Make use of jim_bridgs new shop exploit protection
-- Use jim_bridge getItemLabel() function more
+- Overhaul script secuity
+- Use new jim_bridge openClothing() function
+- Update to jim_bridge 2.1.0+
 
 https://portal.cfx.re/assets/granted-assets
