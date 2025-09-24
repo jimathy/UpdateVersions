@@ -1,5 +1,5 @@
-1.1.01
+1.1.02
 
-- Add config option to set fuel script name to help setting fuel level
+- Fix support for lation_ui
 
 https://portal.cfx.re/assets/granted-assets
