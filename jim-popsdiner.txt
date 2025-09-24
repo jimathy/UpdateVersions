@@ -1,7 +1,6 @@
-2.0.05
+2.0.06
 
-- Overhaul script secuity
-- Use new jim_bridge openClothing() function
-- Update to jim_bridge 2.1.0+
+- Fix built-in comsume event not working with ox_inv
+- Add SingleProgress config option for crafting (place items + one big progressbar)
 
 https://portal.cfx.re/assets/granted-assets
