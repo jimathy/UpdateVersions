@@ -1,5 +1,5 @@
-2.0.02
+2.0.03
 
-- Fix the boolean picking wrong saw prop (sorry)
+- Support jim_bridge's registerSellShop() and registerSellShop()
 
 https://portal.cfx.re/assets/granted-assets
