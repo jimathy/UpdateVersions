@@ -1,5 +1,5 @@
 2.0.03
 
-- Support jim_bridge's registerSellShop() and registerSellShop()
+- Support jim_bridge's registerShop() and registerSellShop()
 
 https://portal.cfx.re/assets/granted-assets
