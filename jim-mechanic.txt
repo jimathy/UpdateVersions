@@ -1,20 +1,11 @@
-3.6.14
+3.6.15
 
-- Now uses updated shop creation from jim_bridge
-- Now uses updated stash creation from jim_bridge
-- Add missing config option for triggering external player huds changes
-- Now passes the plate to `updateHudNitrous` for huds that need it
-- Add extra checks when deleting models to shut fivem warnings up
-- Re-work audio code to have hard limits on nearby sounds
-- Add support for vmt_lightbar (ONX police vehicles)
-- Add maxPerformance option for adminCustoms
-- Add toggle for disabling seatbelt
-- Add locale table for vehicle seat picker
-- Make repair updates instantaneous for local player, instead of waiting for statebag
-- Fix harnessEjection config variable not being called correctly
-- Fix possible issue with auto clocking in when entering a location
-- Fix possible issue with /door and /seat not working on ox_lib
-- Refactor repairStashName selection to be more "certain"
-- Refactor `VehicleStatus` handling
+- Rewrite the GetVehicleProperties and SetVehicleProperties functions
+  - Now they are exactly the same on qb-core and ox_lib, REPLACE BOTH IF YOU HAVE BOTH
+- Add `vehicle_props_validator.lua` that warns users if they haven't replaced the functions
+  - (Can't wait for the anticheat tickets)
+- Fix Crafting and Repairs always using stashes (made the new functions TOO certain)
+- Fix Personal Stash creation (fixes not registered function)
+- Refactor Server Side stash creation, this should fix things like boss stashes not changing slots
 
 https://portal.cfx.re/assets/granted-assets
