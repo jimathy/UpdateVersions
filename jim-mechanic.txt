@@ -2,7 +2,7 @@
 
 - Rewrite the GetVehicleProperties and SetVehicleProperties functions
   - Now they are exactly the same on qb-core and ox_lib, REPLACE BOTH IF YOU HAVE BOTH
-- Add `vehicle_props_validator.lua` that warns users if they haven't replaced the functions
+- Add vehicle_props_validator.lua that warns users if they haven't replaced the functions
   - (Can't wait for the anticheat tickets)
 - Fix Crafting and Repairs always using stashes (made the new functions TOO certain)
 - Fix Personal Stash creation (fixes not registered function)
