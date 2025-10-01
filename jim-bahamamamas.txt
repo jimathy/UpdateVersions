@@ -1,0 +1,10 @@
+2.0.06
+
+- Separated from jim-vanillaunicorn
+- Support stress in built-in consume event
+- Update crafting recipe format for readability
+  - OLD RECIPE STYLE/FILES ARE STILL SUPPORTED
+- Fix registering personal stashes if tied to a prop
+- Start working on future features
+
+https://portal.cfx.re/assets/granted-assets
