@@ -1,6 +1,9 @@
-2.0.08
+2.0.09
 
-- Fix built-in comsume event not working with ox_inv
-- Add SingleProgress config option for crafting (place items + one big progressbar)
+- Support stress in built-in consume event
+- Update crafting recipe format for readability
+  - OLD RECIPE STYLE/FILES ARE STILL SUPPORTED
+- Fix registering personal stashes if tied to a prop
+- Start working on future features
 
 https://portal.cfx.re/assets/granted-assets
