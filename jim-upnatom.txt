@@ -1,10 +1,13 @@
-1.1.06
+1.1.07
 
-- Remove Hornys location and move to new script
-- Support stress in built-in consume event
-- Update crafting recipe format for readability
-  - OLD RECIPE STYLE/FILES ARE STILL SUPPORTED
-- Fix registering personal stashes if tied to a prop
-- Start working on future features
+- Tidy up upnatom_gabz.lua + Add table stashes, personal stash and trash stahes
+- Tidy up upnatom_gnmods.lua + Change stash names, add table stashes, add trash stashes, add personal stashes
+- Use new jim_bridge createPropTarget() function
+- Adjust auto minZ and maxZ generation
+- Support embedded shop recipes
+- Support jim_bridge alcohol syncing export for built in consume
+- Fix pack items not giving items
+- Fix Trash Stashes not being created
+- Allow "Bag" items to have custom slots and weight (itemcontrol.lua)
 
 https://portal.cfx.re/assets/granted-assets
