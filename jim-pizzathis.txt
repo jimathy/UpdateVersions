@@ -1,9 +1,12 @@
-2.0.07
+2.0.08
 
-- Support stress in built-in consume event
-- Update crafting recipe format for readability
-  - OLD RECIPE STYLE/FILES ARE STILL SUPPORTED
-- Fix registering personal stashes if tied to a prop
-- Start working on future features
+- Tidy up pizza_this.lua
+- Use new jim_bridge createPropTarget() function
+- Adjust auto minZ and maxZ generation
+- Support embedded shop recipes
+- Support jim_bridge alcohol syncing export for built in consume
+- Fix pack items not giving items
+- Fix Trash Stashes not being created
+- Allow "Bag" items to have custom slots and weight (itemcontrol.lua)
 
 https://portal.cfx.re/assets/granted-assets
