@@ -1,9 +1,11 @@
-2.0.09
+2.0.10
 
-- Support stress in built-in consume event
-- Update crafting recipe format for readability
-  - OLD RECIPE STYLE/FILES ARE STILL SUPPORTED
-- Fix registering personal stashes if tied to a prop
-- Start working on future features
+- Tidy up bakery_k4mb1trey.lua + bakery_hanestrey.lua
+- Use new jim_bridge createPropTarget() function
+- Adjust auto minZ and maxZ generation
+- Support embedded shop recipes
+- Fix pack items not giving items
+- Fix Trash Stashes not being created
+- Allow "Bag" items to have custom slots and weight (itemcontrol.lua)
 
 https://portal.cfx.re/assets/granted-assets
