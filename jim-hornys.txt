@@ -1,13 +1,8 @@
-1.1.07
+1.1.08
 
-- Tidy up gabz_hornys.lua + Add Personal stash, Menu locations, Table Stashes
-- Use new jim_bridge createPropTarget() function
-- Adjust auto minZ and maxZ generation
-- Support embedded shop recipes
-- Support jim_bridge alcohol syncing export for built in consume
-  - Alcohol consumtion should now be synced between my scripts
-- Fix pack items not giving items
-- Fix Trash Stashes not being created
-- Allow "Bag" items to have custom slots and weight (itemcontrol.lua)
+- Refactor client and server files to be more optimized and organised
+- Added missing items that were left out in script split
+- Update locale function to be more verbose
+- Add slicedtomato to crafting + up the amounts to 3 per craft
 
 https://portal.cfx.re/assets/granted-assets
