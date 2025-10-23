@@ -1,11 +1,8 @@
-2.0.10
+2.0.11
 
-- Tidy up bakery_k4mb1trey.lua + bakery_hanestrey.lua
-- Use new jim_bridge createPropTarget() function
-- Adjust auto minZ and maxZ generation
-- Support embedded shop recipes
-- Fix pack items not giving items
-- Fix Trash Stashes not being created
-- Allow "Bag" items to have custom slots and weight (itemcontrol.lua)
+- Refactor client and server files to be more optimized and organised
+- Added missing ox item info for "icecream"
+- Added qb compatability for qbox items "coffee", "tosti", "sandwich" + images for them
+- Update locale function to be more verbose
 
 https://portal.cfx.re/assets/granted-assets
