@@ -1,12 +1,8 @@
-2.0.07
+2.0.08
 
-- Tidy up all locations
-- Use new jim_bridge createPropTarget() function
-- Adjust auto minZ and maxZ generation
-- Support embedded shop recipes
-- Support jim_bridge alcohol syncing export for built in consume
-- Fix pack items not giving items
-- Fix Trash Stashes not being created
-- Allow "Bag" items to have custom slots and weight (itemcontrol.lua)
+- Refactor client and server files to be more optimized and organised
+- Added qb compatability for qbox items "coffee", "vodka" + images for them
+- Update locale function to be more verbose
+- Add missing emotes for non jim-consumable users
 
 https://portal.cfx.re/assets/granted-assets
